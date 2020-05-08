@@ -6,7 +6,7 @@ function redirect_to($New_Location){
     exit;
 }
 function Login_Attempt($Username,$Password){
-    $conn=mysqli_connect("sql309.epizy.com","epiz_25651421","KsRMDPtnKMuOJSZ","epiz_25651421_westlabels");
+    $conn=mysqli_connect("localhost","root","Emaochi99","westlabels");
     $sql="SELECT * FROM registration WHERE username='$Username' AND password='$Password'";
     $result=$conn->query($sql);
     if($admin=mysqli_fetch_assoc($result)){
