@@ -16,7 +16,7 @@
          $_SESSION["Username"]=$FoundAccount["username"];
          if($FoundAccount){
              $_SESSION["SuccessMessage"]="Welcome! {$_SESSION["Username"]}";
-             redirect_to("dashboard.php");
+             redirect_to("Admin/dashboard.php");
          }else{
              $_SESSION["ErrorMessage"]="Invalid details";
              redirect_to("login.php");
@@ -30,12 +30,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="assets/css/login.css" type="text/css">
+    <link rel="stylesheet" href="Admin/assets/css/login.css" type="text/css">
 </head>
 <body>
 
     <div class="loginbox">
-        <img src="../Upload/logo4.jpg" class="avatar">
+        <img src="Upload/logo4.jpg" class="avatar">
         <h1>Login Here</h1>
         <form method="post" action="<?php echo(htmlentities($_SERVER["PHP_SELF"])); ?>">
              

@@ -83,7 +83,7 @@ class TypeWriter{
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
     //Initial type speed
-    let typeSpeed = 100;
+    let typeSpeed = 500;
 
     if(this.isDeleting){
         typeSpeed /= 2;
