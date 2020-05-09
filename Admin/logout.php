@@ -3,5 +3,5 @@
 <?php 
 $_SESSION["User_Id"]=null;
 session_destroy();
-redirect_to("login.php");
+redirect_to("../login.php");
 ?>
