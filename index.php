@@ -211,7 +211,7 @@ $SrNo=0;
 			<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
 			<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 		</ul>
-		<p>&copy; Jan Technologies 2020. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		<p>&copy; Jan-Tech 2020.</p>
 	</div>
 </footer>
 
